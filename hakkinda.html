@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ömer Ayan hakkında: öğrenme günlüğü, bildiği komutlar ve çalışma şekli.">
+  <meta name="author" content="Ömer Ayan">
+  <title>Hakkında · Ömer Ayan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">$_</span>Ömer Ayan</a>
+      <nav class="site-nav" aria-label="Ana menü">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="projects.html">Projeler</a>
+        <a href="hakkinda.html" aria-current="page">Hakkında</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="icerik">
+    <section class="page-head container">
+      <p class="eyebrow">Hakkında</p>
+      <h1>Ben kimim, neler öğreniyorum?</h1>
+      <p class="lede">Merhaba, ben Ömer Ayan. Programlamaya yeni başladım: ilk projemi 5 Kasım 2026'da oluşturdum. Öğrendiklerimi bu sitede adım adım paylaşıyorum.</p>
+    </section>
+
+    <section class="section container" aria-labelledby="gunluk">
+      <div class="section-head">
+        <p class="eyebrow">Öğrenme günlüğü</p>
+        <h2 id="gunluk">Şimdiye kadar yaptıklarım</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <time datetime="2026-11-05">5 Kasım 2026</time>
+          <div>
+            <h3>İlk proje klasörü</h3>
+            <p><code>ilk-projem</code> klasörünü açtım ve içine “merhaba” yazan ilk dosyamı koydum. Projeyi bir README ve bir <code>.gitignore</code> dosyasıyla düzenledim.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-05">5 Kasım 2026</time>
+          <div>
+            <h3>Komut satırı kopya kağıdı</h3>
+            <p><code>pwd</code>'den <code>grep</code>'e kadar ilk öğrenmem gereken on komutu, ne zaman kullanılacaklarını gösteren örneklerle bir kopya kağıdında topladım.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-06">6 Kasım 2026</time>
+          <div>
+            <h3>İlk web sayfam</h3>
+            <p>Kişisel sayfamı yazdım. Başlığa adımı koydum, bir karşılama cümlesi ekledim ve başlığın boyutunu istediğim gibi ayarladım.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-06">6 Kasım 2026</time>
+          <div>
+            <h3>İlk refactor çalışmam</h3>
+            <p>Sayfamın kodunu, sayfanın görünüşünü ve çalışmasını değiştirmeden daha okunur hâle getirdim. Buna “refactor” deniyor. Üç küçük düzenleme yaptım ve her birinde sayfanın değişmediğini ekran görüntüleriyle doğruladım.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2026-11-06">6 Kasım 2026</time>
+          <div>
+            <h3>Tek sayfadan siteye</h3>
+            <p>Stili ortak bir dosyaya taşıdım, Projeler ve Hakkında sayfalarını ekledim ve üç sayfaya aynı gezinme menüsünü koydum.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section container" aria-labelledby="komutlar">
+      <div class="section-head">
+        <p class="eyebrow">Komut satırı</p>
+        <h2 id="komutlar">Bildiğim komutlar</h2>
+        <p>Kopya kağıdımdaki on komut. Hepsi Mac ve Linux terminalinde, Windows'ta da Git Bash'te çalışıyor.</p>
+      </div>
+      <dl class="commands">
+        <div><dt>pwd</dt><dd>Şu an neredeyim?</dd></div>
+        <div><dt>ls</dt><dd>Burada ne var?</dd></div>
+        <div><dt>cd</dt><dd>Başka klasöre geç</dd></div>
+        <div><dt>mkdir</dt><dd>Yeni klasör oluştur</dd></div>
+        <div><dt>touch</dt><dd>Boş dosya oluştur</dd></div>
+        <div><dt>cat</dt><dd>Dosyanın içini göster</dd></div>
+        <div><dt>cp</dt><dd>Kopyala</dd></div>
+        <div><dt>mv</dt><dd>Taşı ya da yeniden adlandır</dd></div>
+        <div><dt>rm</dt><dd>Sil (geri dönüşü yok)</dd></div>
+        <div><dt>grep</dt><dd>Dosyalarda metin ara</dd></div>
+      </dl>
+    </section>
+
+    <section class="section container" aria-labelledby="calisma">
+      <div class="section-head">
+        <p class="eyebrow">Çalışma şeklim</p>
+        <h2 id="calisma">Nasıl çalışıyorum?</h2>
+        <p>Claude Code ile birlikte çalışıyorum. Kendime koyduğum üç kural var.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <p class="card-kicker">1 · Plan</p>
+          <h3>Önce plan</h3>
+          <p>Bir şeyi değiştirmeden önce hangi dosyaya, hangi sırayla dokunulacağını listeliyorum.</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">2 · Onay</p>
+          <h3>Onaydan sonra değişiklik</h3>
+          <p>Her değişikliği uygulanmadan önce görüyor, ancak onayladıktan sonra dosyaya yazılmasına izin veriyorum.</p>
+        </article>
+        <article class="card">
+          <p class="card-kicker">3 · Kontrol</p>
+          <h3>Test ederek ilerleme</h3>
+          <p>Bir düzenlemeden sonra sayfanın bozulmadığını açık ve koyu temada ekran görüntüleriyle kontrol ediyorum.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact container" aria-labelledby="hedef">
+      <div class="contact-panel">
+        <p class="eyebrow">Sıradaki hedefim</p>
+        <h2 id="hedef">JavaScript ve ilk etkileşimli projem</h2>
+        <p>Sırada JavaScript var. Öğrendiklerimle ilk etkileşimli projemi, yapılacaklar listesi uygulamasını yapacağım.</p>
+        <a class="email" href="projects.html#yapilacaklar">Projeye göz at →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Ömer Ayan</p>
+      <p>Claude Code ile birlikte, HTML ve CSS kullanılarak yapıldı.</p>
+    </div>
+  </footer>
+</body>
+</html>

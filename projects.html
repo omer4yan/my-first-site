@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ömer Ayan'ın projeleri: portföy sitesi, yapılacaklar listesi uygulaması ve tarayıcı oyunu.">
+  <meta name="author" content="Ömer Ayan">
+  <title>Projeler · Ömer Ayan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">$_</span>Ömer Ayan</a>
+      <nav class="site-nav" aria-label="Ana menü">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="projects.html" aria-current="page">Projeler</a>
+        <a href="hakkinda.html">Hakkında</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="icerik">
+    <section class="page-head container">
+      <p class="eyebrow">Projeler</p>
+      <h1>Öğrenirken yapacağım üç proje</h1>
+      <p class="lede">Sıralama öğrenme sıramı gösteriyor: her proje bir öncekinin üstüne yeni bir beceri ekliyor.</p>
+    </section>
+
+    <div class="projects container">
+      <article class="project" id="portfoy" aria-labelledby="p1">
+        <div class="project-main">
+          <div class="project-meta">
+            <span class="project-index">1. proje</span>
+            <span class="chip chip-ok">Devam ediyor</span>
+          </div>
+          <h2 id="p1">Kişisel portföy sitesi</h2>
+          <p>Yaptığım projeleri tek bir yerde toplayan bir site. Şu an gezdiğin site bu projenin kendisi; diğer projeler tamamlandıkça bağlantıları buraya eklenecek.</p>
+          <p class="label">Öğreneceklerim</p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Ortak stil dosyası</li>
+            <li>Açık / koyu tema</li>
+            <li>Yayınlama</li>
+          </ul>
+        </div>
+        <div class="roadmap">
+          <p class="label">Yol haritası</p>
+          <div class="progress" role="progressbar" aria-label="İlerleme"
+               aria-valuemin="0" aria-valuemax="6" aria-valuenow="4" aria-valuetext="6 adımdan 4'ü tamamlandı">
+            <div class="progress-label"><span>İlerleme</span><span>4 / 6 adım</span></div>
+            <div class="progress-track"><div class="progress-fill" style="--value: 66.67%"></div></div>
+          </div>
+          <ul class="checklist">
+            <li class="done">İlk sayfa ve karşılama başlığı <span class="sr-only">(tamamlandı)</span></li>
+            <li class="done">Stili ortak bir dosyaya taşımak <span class="sr-only">(tamamlandı)</span></li>
+            <li class="done">Üç sayfa ve ortak gezinme menüsü <span class="sr-only">(tamamlandı)</span></li>
+            <li class="done">Bilgisayarın ayarına göre kendiliğinden değişen açık ve koyu tema <span class="sr-only">(tamamlandı)</span></li>
+            <li>Gerçek e-posta adresimle bir iletişim bölümü eklemek</li>
+            <li>Siteyi internette yayınlamak</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project" id="yapilacaklar" aria-labelledby="p2">
+        <div class="project-main">
+          <div class="project-meta">
+            <span class="project-index">2. proje</span>
+            <span class="chip chip-next">Sırada</span>
+          </div>
+          <h2 id="p2">Yapılacaklar listesi uygulaması</h2>
+          <p>Görev ekleyip tamamlandı olarak işaretleyebildiğim, sayfayı kapatıp açsam bile görevlerimi hatırlayan küçük bir uygulama. JavaScript ile yazacağım ilk proje olacak.</p>
+          <p class="label">Öğreneceklerim</p>
+          <ul class="tags">
+            <li>JavaScript</li>
+            <li>Tıklamalara tepki vermek</li>
+            <li>Sayfayı koddan değiştirmek (DOM)</li>
+            <li>Tarayıcıda veri saklamak (localStorage)</li>
+          </ul>
+        </div>
+        <div class="roadmap">
+          <p class="label">Yol haritası</p>
+          <div class="progress" role="progressbar" aria-label="İlerleme"
+               aria-valuemin="0" aria-valuemax="4" aria-valuenow="0" aria-valuetext="4 adımdan 0'ı tamamlandı">
+            <div class="progress-label"><span>İlerleme</span><span>0 / 4 adım</span></div>
+            <div class="progress-track"><div class="progress-fill" style="--value: 0%"></div></div>
+          </div>
+          <ul class="checklist">
+            <li>JavaScript'in temellerini öğrenmek</li>
+            <li>Görev ekleme ve silme</li>
+            <li>Görevi tamamlandı olarak işaretleme</li>
+            <li>Görevleri tarayıcıda saklamak</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project" id="oyun" aria-labelledby="p3">
+        <div class="project-main">
+          <div class="project-meta">
+            <span class="project-index">3. proje</span>
+            <span class="chip chip-plan">Planlanıyor</span>
+          </div>
+          <h2 id="p3">Tarayıcı oyunu</h2>
+          <p>Klavyeyle oynanan, puan tutan basit bir oyun. Kurulum gerektirmeden doğrudan tarayıcıda açılacak.</p>
+          <p class="label">Öğreneceklerim</p>
+          <ul class="tags">
+            <li>Ekrana çizim (Canvas)</li>
+            <li>Klavye tuşlarına tepki vermek</li>
+            <li>Oyun döngüsü</li>
+            <li>Puan tutma</li>
+          </ul>
+        </div>
+        <div class="roadmap">
+          <p class="label">Yol haritası</p>
+          <div class="progress" role="progressbar" aria-label="İlerleme"
+               aria-valuemin="0" aria-valuemax="4" aria-valuenow="0" aria-valuetext="4 adımdan 0'ı tamamlandı">
+            <div class="progress-label"><span>İlerleme</span><span>0 / 4 adım</span></div>
+            <div class="progress-track"><div class="progress-fill" style="--value: 0%"></div></div>
+          </div>
+          <ul class="checklist">
+            <li>Ekrana şekil çizmek</li>
+            <li>Ok tuşlarıyla hareket ettirmek</li>
+            <li>Çarpışma ve puan sistemi</li>
+            <li>“Oyun bitti” ekranı</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <div class="next-link container">
+      <a class="btn btn-ghost" href="hakkinda.html">Beni daha yakından tanı →</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Ömer Ayan</p>
+      <p>Claude Code ile birlikte, HTML ve CSS kullanılarak yapıldı.</p>
+    </div>
+  </footer>
+</body>
+</html>

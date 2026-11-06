@@ -1,0 +1,32 @@
+# İşletim sistemi dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editör / IDE ayarları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Geçici ve log dosyaları
+*.tmp
+*.bak
+*.log
+
+# Ortam değişkenleri ve gizli bilgiler
+.env
+.env.*
+
+# Bağımlılıklar ve derleme çıktıları
+node_modules/
+__pycache__/
+dist/
+build/
+
+# Deneme dosyaları
+deneme/
+hello.txt

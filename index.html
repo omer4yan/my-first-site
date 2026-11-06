@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ömer Ayan'ın kişisel sitesi: programlamaya yeni başlayan biri olarak öğrendikleri ve yaptığı projeler.">
+  <meta name="author" content="Ömer Ayan">
+  <title>Ömer Ayan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Sans+3:wght@400;600;700&display=swap">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">$_</span>Ömer Ayan</a>
+      <nav class="site-nav" aria-label="Ana menü">
+        <a href="index.html" aria-current="page">Ana Sayfa</a>
+        <a href="projects.html">Projeler</a>
+        <a href="hakkinda.html">Hakkında</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="icerik">
+    <section class="hero container">
+      <h1>Merhaba, Ömer Ayan</h1>
+      <p class="lede">Kişisel sayfama hoş geldin! Programlamaya yeni başladım. Öğrendiklerimi ve yaptığım projeleri burada adım adım paylaşıyorum.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="projects.html">Projelerime bak →</a>
+        <a class="btn btn-ghost" href="hakkinda.html">Hakkında</a>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="simdi">
+      <div class="section-head">
+        <p class="eyebrow">Şu an</p>
+        <h2 id="simdi">Neler öğreniyorum?</h2>
+        <p>Temelden başlıyorum: önce araçları tanıyorum, sonra onlarla bir şeyler yapıyorum.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <p class="card-kicker">$ terminal</p>
+          <h3>Komut satırı</h3>
+          <p>Klasörler arasında gezinmek, dosya oluşturmak, kopyalamak ve aramak. İlk on komutumu bir kopya kağıdında topladım.</p>
+          <a class="more" href="hakkinda.html#komutlar">Komutların listesi →</a>
+        </article>
+        <article class="card">
+          <p class="card-kicker">$ git</p>
+          <h3>Git</h3>
+          <p>Projelerimi düzenli tutmayı ve değişikliklerimi kayıt altına almayı öğreniyorum. Sıradaki adımım ilk commit'im, yani projemin ilk kayıtlı sürümü.</p>
+          <a class="more" href="hakkinda.html#gunluk">Öğrenme günlüğüm →</a>
+        </article>
+        <article class="card">
+          <p class="card-kicker">&lt;html&gt;</p>
+          <h3>HTML ve CSS</h3>
+          <p>Bu siteyi Claude Code ile birlikte, HTML ve CSS kullanarak kurdum: üç sayfa, tek bir ortak stil dosyası, açık ve koyu tema.</p>
+          <a class="more" href="projects.html#portfoy">Sitenin yol haritası →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="projeler">
+      <div class="section-head">
+        <p class="eyebrow">Projeler</p>
+        <h2 id="projeler">Yapmak istediklerim</h2>
+        <p>Her proje bana yeni bir şey öğretecek. İlki, şu an gezdiğin bu site.</p>
+      </div>
+      <div class="grid">
+        <a class="card" href="projects.html#portfoy">
+          <span class="chip chip-ok">Devam ediyor</span>
+          <h3>Kişisel portföy sitesi</h3>
+          <p>Projelerimi tek bir yerde toplayan site. Diğer projeler bittikçe bağlantıları burada olacak.</p>
+          <span class="more">Ayrıntılar →</span>
+        </a>
+        <a class="card" href="projects.html#yapilacaklar">
+          <span class="chip chip-next">Sırada</span>
+          <h3>Yapılacaklar listesi</h3>
+          <p>Sayfayı kapatıp açsam bile görevlerimi hatırlayan küçük bir uygulama.</p>
+          <span class="more">Ayrıntılar →</span>
+        </a>
+        <a class="card" href="projects.html#oyun">
+          <span class="chip chip-plan">Planlanıyor</span>
+          <h3>Tarayıcı oyunu</h3>
+          <p>Klavyeyle oynanan, puan tutan, kurulum gerektirmeyen basit bir oyun.</p>
+          <span class="more">Ayrıntılar →</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Ömer Ayan</p>
+      <p>Claude Code ile birlikte, HTML ve CSS kullanılarak yapıldı.</p>
+    </div>
+  </footer>
+</body>
+</html>
